@@ -1,4 +1,5 @@
 // O(1) for all the operations
+// This maintains a single stack which tracks two numbers for each addition. One for the min value seen so far and the other for the new value added. We change the min value by tracking it separately and updating it with min experienced so far when the number is popped.
 class MinStack {
 
     Stack<Integer> stack = new Stack();
