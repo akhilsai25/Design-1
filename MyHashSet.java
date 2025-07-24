@@ -1,4 +1,5 @@
 // O(1) for all the operations
+// This uses linear chaining approach which stores values in a linkedlist approach for conflicting hash values.
 class Node {
     int val;
     Node next;
