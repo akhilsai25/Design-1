@@ -1,3 +1,4 @@
+// O(1) for all the operations
 class MinStack {
 
     Stack<Integer> stack = new Stack();
