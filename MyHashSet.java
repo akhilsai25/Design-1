@@ -1,4 +1,4 @@
-//
+// O(1) for all the operations
 class Node {
     int val;
     Node next;
